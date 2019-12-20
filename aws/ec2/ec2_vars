@@ -1,4 +1,4 @@
-key_name: "user_ANSIBLE_TOWER"
+key_name: "mac-work-key"
 instance_type: "t2.micro"
 count: "1"
 vpc_subnet_id: "subnet-9d3120e4"
