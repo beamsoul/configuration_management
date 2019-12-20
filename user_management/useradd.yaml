@@ -1,6 +1,6 @@
 ---
 - name: Adds user
-  hosts: all
+  hosts: target
   become: yes
   become_user: root
   tasks:
