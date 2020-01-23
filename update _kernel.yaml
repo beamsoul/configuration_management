@@ -1,5 +1,5 @@
 ---
-  - hosts: web
+  - hosts: localhost 
     tasks:
       - name: update kernel to latest
         when: ansible_distribution == "centOS" #and ansible_distrubution_major_version == "7""

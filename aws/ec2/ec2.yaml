@@ -4,12 +4,12 @@
   tasks:
     - name: Create instances
       ec2:
-        key_name: user_ANSIBLE_TOWER      
+        key_name: macboo      
         instance_type: t2.micro
-        image: ami-0f2b4fc905b0bd1f1
+        image: ami-074e2d6769f445be5
         count: 3
-        vpc_subnet_id: subnet-b22b54c8
-        region: us-east-2
+        vpc_subnet_id: subnet-bfe913d9
+        region: us-west-1
         wait: yes
         assign_public_ip: yes
         user_data:
